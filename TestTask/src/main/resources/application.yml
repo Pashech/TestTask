@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://rootuser:rootpass@localhost:27017/news?authSource=admin
+
+server:
+  port: 8080
